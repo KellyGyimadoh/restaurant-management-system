@@ -1,0 +1,93 @@
+.loginbody{
+    background-image: url(../assets/img/food/restaurantfront.jpg);
+}
+.custom-form-container {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 0 auto;
+}
+.custom-form-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+.custom-form-container .form-group {
+    margin-bottom: 15px;
+}
+.custom-form-container .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+.custom-form-container .form-group input,
+.custom-form-container .form-group select {
+    width: 100%;
+    padding: 0px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.custom-form-container .form-check {
+    margin-bottom: 10px;
+}
+.custom-form-container .form-check-input {
+    margin-right: 10px;
+}
+.custom-form-container .btn {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.custom-form-container .btn:hover {
+    background-color: #0056b3;
+}
+.custom-form-container .btn-secondary {
+    background-color: #6c757d;
+}
+.custom-form-container .btn-secondary:hover {
+    background-color: #5a6268;
+}
+.custom-form-container .alert {
+    display: none;
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.custom-form-container .alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+.custom-form-container .alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+.custom-form-container .item-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.custom-form-container .item-group span {
+    margin-right: 10px;
+}
+.custom-form-container .item-group button {
+    margin-left: 10px;
+}
+
+.custom-alert {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1050;
+    display: none;
+}
