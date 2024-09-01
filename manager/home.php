@@ -4,7 +4,7 @@ require("../includes/sessions.php");
 require("../includes/head.php");
 if (!isloggedin() && !isset($_SESSION['accounttype']) && $_SESSION['accounttype'] !== "director") {
 
-    header("Location:../auth/index.php");
+   header("Location:../auth/index.php");
     die();
 }
    

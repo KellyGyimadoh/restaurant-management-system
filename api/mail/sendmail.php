@@ -34,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
         $mail->Username = 'kelvinmadridstar@gmail.com'; // Replace with your SMTP username
-        $mail->Password = 'jeqc ammg wrwc mdjb'; // Replace with your SMTP app password
+        $mail->Password = getenv('MAIL_PASSWORD'); // Replace with your SMTP app password
        // $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
        // $mail->SMTPSecure = 'ssl';
         $mail->SMTPSecure = false;
